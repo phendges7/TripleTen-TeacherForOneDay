@@ -2,7 +2,7 @@
 
 ## English
 
-This repository contains educational resources and SQL exercises designed for the "Teacher For One Day" project at TripleTen. The materials are intended to help students learn and practice database concepts such as creating tables, populating them, updating records, and deleting data.
+This repository contains educational resources and SQL exercises designed for the "Teacher For One Day" project at [TripleTen](https://www.linkedin.com/school/tripleten-brasil/posts/?feedView=all). The materials are intended to help students learn and practice database concepts such as creating tables, populating them, updating records, and deleting data.
 
 ### Contents
 
@@ -57,3 +57,4 @@ Este repositório contém materiais educacionais e exercícios de SQL desenvolvi
 ---
 
 > For any questions or suggestions, please open an issue or contact the repository maintainer.
+> You can get in touch with me through the LinkedIn: [Please use this link](https://www.linkedin.com/in/phendges7/)
