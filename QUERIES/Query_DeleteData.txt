@@ -1,0 +1,11 @@
+-- RUN QUERIES ONE BY ONE TO SEE DETAILS
+-- DELETES
+DELETE FROM clientes;
+DELETE FROM clientes WHERE telefone = 5555555;
+TRUNCATE TABLE clientes;
+
+DROP TABLE endereco_entrega;
+DROP TABLE pedido_itens;
+DROP TABLE produtos;
+DROP TABLE pedidos;
+DROP TABLE clientes;

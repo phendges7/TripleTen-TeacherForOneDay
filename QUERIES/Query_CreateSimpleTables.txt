@@ -1,0 +1,18 @@
+-- SIMPLE EXAMPLE TO DEMONSTRATE RELATIONSHIP BETWEEN TWO TABLES
+-- RUN QUERY AND SEE WHAT HAPPENS WHEN YOU TRY TO DROP A TABLE THAT'S LINKED TO ANOTHER ONE
+
+-- CRIA TABELA - PK
+CREATE TABLE clientes (
+    id INT PRIMARY KEY,  -- Chave primária
+    nome VARCHAR(100)
+);
+
+-- CRIA TABELA - FK
+CREATE TABLE pedidos (
+    id INT PRIMARY KEY,
+    cliente_id INT,  -- Chave estrangeira
+    produto VARCHAR(100),
+    FOREIGN KEY (cliente_id) REFERENCES clientes(id)  -- Liga à tabela 'clientes'
+);
+
+DROP TABLE clientes;
